@@ -2,77 +2,77 @@
 arch = "x86_64"
 cuda = "none"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "44df258052b9581d1632b42c7bdb237c69ebada9"
+git-tree-sha1 = "5e30d1c389c89f3281914f8195af5973a3bf0840"
 julia_version = "1.10.0"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[cunumeric_jl_wrapper.download]]
-    sha256 = "c53956c52f61a547b65186d0c54ee08d1d63f5a703e23ba8074702fdb00aaad9"
-    url = "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.0+0/cunumeric_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.10.0.tar.gz"
+    sha256 = "6fe4a5f066e7758b63447a4bde1318777a294a1844f632d7f30c47fa644ad885"
+    url = "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.1+0/cunumeric_jl_wrapper.v26.6.1.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.10.0.tar.gz"
 [[cunumeric_jl_wrapper]]
 arch = "x86_64"
 cuda = "none"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "83aafe3c9bbe7823e920ea1122d6bd800f827c6d"
+git-tree-sha1 = "8f18518760cdb0d2d3b7df007f7545797a5806f1"
 julia_version = "1.11.1"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[cunumeric_jl_wrapper.download]]
-    sha256 = "c876ea933d39773de8ab14d8208234a85e08c5eda0b25afa5349cbc078b7bcd2"
-    url = "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.0+0/cunumeric_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.11.1.tar.gz"
+    sha256 = "fd6a723d3a33aeb3eb1ac2bb49f6f8e9be601d0a82b29ca8a6dda36c28d98ea4"
+    url = "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.1+0/cunumeric_jl_wrapper.v26.6.1.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.11.1.tar.gz"
 [[cunumeric_jl_wrapper]]
 arch = "x86_64"
 cuda = "none"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2abaed2dc0b7db9b13697c41d8c5e6f2701f15a7"
+git-tree-sha1 = "c2521d7dc6cbcfa08f22886ef3e5cf724fd9211e"
 julia_version = "1.12.0"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[cunumeric_jl_wrapper.download]]
-    sha256 = "5ceddd957aa29efbf5329e6bff85b7d5f1019538affcd22ac6f276bb8fc546ab"
-    url = "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.0+0/cunumeric_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.12.0.tar.gz"
+    sha256 = "0024a863618aaedf3f868f2c8f763ae68641269af565bed440bf7890fa913b83"
+    url = "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.1+0/cunumeric_jl_wrapper.v26.6.1.x86_64-linux-gnu-cxx11-cuda+none-julia_version+1.12.0.tar.gz"
 [[cunumeric_jl_wrapper]]
 arch = "x86_64"
 cuda = "13.0"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b942502a9a9ef2d7720a2d21814ce9312fa4ccef"
+git-tree-sha1 = "4023d22f159305858f0aa855b8d887303cc19ead"
 julia_version = "1.10.0"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[cunumeric_jl_wrapper.download]]
-    sha256 = "d8454987748fb2cc4c8ee8c9bca042a342988ea188ae9a99397d5392822ea9f9"
-    url = "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.0+0/cunumeric_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0.tar.gz"
+    sha256 = "7bb2a4538a4157f82ae8924c2898cc6ff5cb802dde98986c3a6c88666f6279ea"
+    url = "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.1+0/cunumeric_jl_wrapper.v26.6.1.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.10.0.tar.gz"
 [[cunumeric_jl_wrapper]]
 arch = "x86_64"
 cuda = "13.0"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e79390f2727a52ffe4e7fb6d36d03fdbe41d7127"
+git-tree-sha1 = "4b9a7f77935772ddfced975daa2bd9861930780f"
 julia_version = "1.11.1"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[cunumeric_jl_wrapper.download]]
-    sha256 = "1883fa377714f7485cd7138a9834d575705f7160080852fc61852d737254b673"
-    url = "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.0+0/cunumeric_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1.tar.gz"
+    sha256 = "16e8ef78da4744d7f3037a5749b2ede8b25ba76c3fed081f9c4f98aff8f5aa52"
+    url = "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.1+0/cunumeric_jl_wrapper.v26.6.1.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.11.1.tar.gz"
 [[cunumeric_jl_wrapper]]
 arch = "x86_64"
 cuda = "13.0"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "805bfb2856c59d2708a16db20bbeb54b94b2a123"
+git-tree-sha1 = "75e99078be787898c518d2977727f78f0892c636"
 julia_version = "1.12.0"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[cunumeric_jl_wrapper.download]]
-    sha256 = "22b8b234c399721337ae78dd3addd436955846a165d2a5724c4cbb8c69d953b8"
-    url = "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.0+0/cunumeric_jl_wrapper.v26.6.0.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0.tar.gz"
+    sha256 = "321358fb8d86f9aea59464cda22963d9d383fe69d1d1ab4345d89c824c99e71e"
+    url = "https://github.com/JuliaBinaryWrappers/cunumeric_jl_wrapper_jll.jl/releases/download/cunumeric_jl_wrapper-v26.6.1+0/cunumeric_jl_wrapper.v26.6.1.x86_64-linux-gnu-cxx11-cuda+13.0-julia_version+1.12.0.tar.gz"
