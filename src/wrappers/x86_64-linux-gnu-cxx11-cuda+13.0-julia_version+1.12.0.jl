@@ -7,19 +7,19 @@ using libcxxwrap_julia_jll
 using CompilerSupportLibraries_jll
 using CUDA_Runtime_jll
 JLLWrappers.@generate_wrapper_header("cunumeric_jl_wrapper")
-JLLWrappers.@declare_library_product(libcunumeric_c_wrapper, "libcunumeric_c_wrapper.so.0.0.1")
 JLLWrappers.@declare_library_product(libcunumeric_jl_wrapper, "libcunumeric_jl_wrapper.so.0.0.1")
+JLLWrappers.@declare_library_product(libcunumeric_c_wrapper, "libcunumeric_c_wrapper.so.0.0.1")
 function __init__()
     JLLWrappers.@generate_init_header(cupynumeric_jll, legate_jll, libcxxwrap_julia_jll, CompilerSupportLibraries_jll, CUDA_Runtime_jll)
     JLLWrappers.@init_library_product(
-        libcunumeric_c_wrapper,
-        "lib/libcunumeric_c_wrapper.so",
+        libcunumeric_jl_wrapper,
+        "lib/libcunumeric_jl_wrapper.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
-        libcunumeric_jl_wrapper,
-        "lib/libcunumeric_jl_wrapper.so",
+        libcunumeric_c_wrapper,
+        "lib/libcunumeric_c_wrapper.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
